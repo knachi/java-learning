@@ -13,6 +13,7 @@ public class UserCredentialDto {
     private String email;
     private String username;
 
+    // If we want to use custom object as a key in hashmap then we have to override equals and hashcode method
     @Override
     public boolean equals(final Object o) {
         if (this == o) return true;

@@ -16,7 +16,7 @@ class EqualAndHashcodeTests {
 
 	/**
 	 * Since we override username and email, equality of the 2 objects
-	 * will be decided on the basis of username and email
+	 * will be decided on the basis of username and email.
 	 */
 	@Test
 	void testUserEqualsAndHashcode() {
@@ -60,7 +60,7 @@ class EqualAndHashcodeTests {
 	}
 
 	/**
-	 * If we want
+	 * Test custom object as a key in hashmap.
 	 */
 	@Test
 	void testCustomKeyMap()  {
