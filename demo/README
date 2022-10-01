@@ -1,0 +1,7 @@
+How to refer this repository ?
+
+1) Following path will have files related to particular topic
+"src/main/java/com/example/demo"
+
+2) Following path will have tests classes related to respective topic
+"src/test/java/com/example/demo"
